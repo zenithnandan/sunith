@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SUNIH P and ASHWINI M Wedding</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        SUNIH P & ASHWINI M
+        <span class="heading-subtext"> are getting married!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+    <section class="section">
+      <h2 class="sub-heading">Overview</h2>
+      <p>Priceless moments in life are meant to be celebrated in the presence of the ones you love, which is why I hope you will be joining the celebration at my wedding ceremony</p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">The Details</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">When</h3>
+        <p>NOVEMBER 28, 2022</p>
+        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Location</h3>
+        <p><a rel="noopener" href="#"><b>SANKRANTHI CONVENTIONAL HALL</b></a>, Ramanathapura, Hassan Dist</p>
+        <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">RECEPTION TO FOLOW</h3>
+        <h1 class="details-heading">01 DECEMBER 2022</h1>
+      </div>
+      
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
